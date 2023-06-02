@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradê</title>
+    <style>
+        * { /* Isso significa configuração global de uma CSS*/
+            height: 100%; /* importante usar o 100% height para ele não ter problemas de compatibilidade*/
+        }
+        body {
+            background-image: linear-gradient(to right, #40E6C1 30%, #3AFC9B 40%, #38F260);/* Pode se usar graus usando um número e deg no lugar de "to top, to right"...*/
+            background-attachment: fixed;/* Isso serve para deixar o fundo fixo e n criar opção de rolagem, serve para corrigir erros basicamente*/
+            /* Caso queira tranformar o degradê em radial só trocar de linear-gradient para radial gradient(circle) utilizando circle no lugar de "to top, toright..." */
+            /* Utilizando porcentagem na frente das cores determinamos quanto delas vão aparecer na tela*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Esse site tem um degradê</h1>
+    <h1>Para fazer degradê usamos Background-image</h1>
+</body>
+</html>
