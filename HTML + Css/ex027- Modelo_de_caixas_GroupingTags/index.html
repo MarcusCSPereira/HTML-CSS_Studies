@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Grouping tags Semânticas</title>
+</head>
+
+<body>
+
+  <div>
+    <p>Isso é uma tag de agrupamento div padrão</p>
+  </div>
+  <span>
+    <p>Isso é uma tag de agrupamento span padrão, por isso o estilo css dela deve ser aplicado no p, e não na tag span</p>
+  </span>
+
+    <header>
+      <h1>Aqui temos uma divisão correta do nosso site e semântica, onde usamos as tags de divisão, essa no caso é a header </h1>
+      <nav>
+        Dentro do cabeçalho temos uma navegação com links feita com a tag nav para a semântica correta
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p>Essa é a main, e é importante ressaltar que todas funcionam como divs, porém semânticamente falando, é importante usar as tags corretas para cada tipo de conteúdo</p>
+      <section class="section-1">
+        <h2>Seção 1</h2>
+        <p>Essa é a seção 1 feita por uma tag section</p>
+      </section>
+
+      <section class="section-2">
+        <h2>Seção 2</h2>
+        <p>Podemos ter Sections em todo nosso site, porém o mais comum é dividir o nosso main em "seções"</p>
+      </section>
+
+      <section class="section-3">
+        <h2>Seção 3</h2>
+        <article>
+          <h3>Artigo 1</h3>
+          <p>Esse é o artigo 1 ele é declarado por uma tag article, e dentro dele temos um aside que geralmente passa a info do autor do article</p>
+          <aside>Nome do Autor: Escrito por MarcusCSPereira</aside>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Esse é o rodapé do site</p>
+      <p>Desenvolvido por MarcusCSPereira</p>
+    </footer>
+</body>
+</html>
