@@ -30,11 +30,15 @@ header{
 }
 
 nav{
-  background-color: black;
+  background-color: dimgray;
   color: red;
   text-align: center;
   padding: 10px;
   margin: 10px;
+  box-shadow: 5px/*Deslocamento Horizontal*/ 5px/*Deslocamento Vertical*/  5px/*Espalhamento*/  rgba(0, 0, 0, 0.671);
+  /*É possível criar sua própria sombra pelo devTolls do navegador indo em sua tag por ele e clica nós 3 pontinhos e ir na opcção: add BoxShadow*/
+  /*Mudar cor de sombra não é recomendado, o recomendado é continuar no black e alternar somente a transparência da cor */
+  /*Caso queira sombra interna do elemento é só usar box-shadown inset 1px 1px 1px 1px black*/
 }
 
 nav ul a{
@@ -87,8 +91,8 @@ footer{
   color: white;
   font-weight: bolder;
   text-align: center;
-  padding: 10px;
-  margin: 10px;
+  padding: 10x;
+  margin: 10 px;
 }
 
 .section-1{
