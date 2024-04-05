@@ -72,6 +72,10 @@ main{
   flex-direction: column;
   padding: 10px;
   margin: 10px;
+  border-radius: 10px;
+  /*border-radius: é possivel usar o border para cada lado do bloco individualmente, usando a ordem em cima esquerda e direita e embaixo direita e esquerda */
+  /*É possivel usar apenas 2 valores o primeiro alterando a borda de cima e baixo na esquerda e a segunda alterando a borda de cima e baixo da direita */
+  /* É possivel usar porcentagem principalmente quando criamos circulos, utilizamos 50% de porcentagem.*/
 }
 
 article{
@@ -111,4 +115,12 @@ footer{
   background-color: lightcoral;
   padding: 10px;
   margin: 10px;
+}
+
+#bola{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: purple;
+  border-radius: 50%;
 }
