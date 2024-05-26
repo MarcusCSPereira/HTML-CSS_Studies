@@ -97,6 +97,15 @@ footer{
   text-align: center;
   padding: 10x;
   margin: 10 px;
+  /* Para Colocar Bordas personalizadas: 
+  border 12px solid transparent; Isso é importante para a borda aparecer
+  border-image-source: url('caminho da imagem.png');
+  border-image-slice: 30; fatiamento da borda
+  border-image-repeat: repeat; repetição da imagem
+
+  simplificando:
+  border-image: url('caminho da imagem') 27 repeat;
+  */
 }
 
 .section-1{
